@@ -4,7 +4,7 @@ import MaskInput from "react-native-mask-input";
 import styles from "../../styles/Form";
 
 const weightBrMask = [/\d/, ".", /\d/, /\d/];
-const heightBrMask = [/\d/, /\d/];
+const heightBrMask = [/\d/, /\d/, /\d/];
 
 export default function Form({ valor, setValor, setImcInfo }) {
   const [altura, setAltura] = React.useState(null);
